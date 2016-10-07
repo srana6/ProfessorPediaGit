@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\sumit rana\\Documents\\ProjectApplication\\app\\build\\intermediates\\res\\merged\\release\\animator\\slide_out_left.xml",
+        "source": "C:\\Users\\sumit rana\\Documents\\ProjectApplication\\app\\src\\main\\res\\animator\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\sumit rana\\Documents\\ProjectApplication\\app\\build\\intermediates\\res\\merged\\release\\animator\\fadein.xml",
+        "source": "C:\\Users\\sumit rana\\Documents\\ProjectApplication\\app\\src\\main\\res\\animator\\fadein.xml"
+    },
+    {
+        "merged": "C:\\Users\\sumit rana\\Documents\\ProjectApplication\\app\\build\\intermediates\\res\\merged\\release\\animator\\slide_in_left.xml",
+        "source": "C:\\Users\\sumit rana\\Documents\\ProjectApplication\\app\\src\\main\\res\\animator\\slide_in_left.xml"
+    }
+]

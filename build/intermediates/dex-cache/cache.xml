@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-23.3.0_465bc91a2572f93e9ae2368ae3ebc2ca09fb7574.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\com.android.support-design-23.3.0_2941d2d77752f794f2b6aa68a96d3a6e2a4547f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\exploded-aar\hanks.xyz\htextview-library\0.1.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5bf7696aa1cb22ad54191decdca420ec5265de4b">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\hanks.xyz-htextview-library-0.1.3_d26b1eba0613e2eb4e50d6bda0f613859242d7fa.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\bolts-applinks-1.4.0_0388e35ba4fcb7570ae493a332c5723ef7c250bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\exploded-aar\info.hoang8f\fbutton\1.0.5\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2c12397a785c3b1868fbebeffc9553457b27803f">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\info.hoang8f-fbutton-1.0.5_b79be37a976e9cc8ffc393b06077434a9a925929.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="cb86970df0f0f25f766d320b279c7858c1ca0003">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\com.android.support-cardview-v7-23.2.1_f73528c4e10f6edeacd54941de0b193279b1b08f.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-23.3.0_c2b66212630de583000afa7c2af9e75975745303.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\libs\additionnal.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\additionnal_d9cb076552e885a07886777eaf13105d788b6977.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.3.0_005696fb47b8da0eacb4c65cddac705bcf61bd37.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-23.3.0_e493173a2f51f3b56193add195662dcdfeb54802.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\exploded-aar\com.github.vajro\MaterialDesignLibrary\1.6\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b083f9ed76344c2f2b227c56d597f6d08d3fefc8">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\com.github.vajro-MaterialDesignLibrary-1.6_15f15f0b64f4f43a4c6560404d8e36acac02f713.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\exploded-aar\com.ogaclejapan.smarttablayout\library\1.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="773103b47908c3026873309dd5d968b7fc6556eb">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\com.ogaclejapan.smarttablayout-library-1.6.0_d3243ef85895834849c3d901134fc0b6f06defbc.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-base-8.4.0_55849430b1b31f027fae9ab14c3196158f38b776.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\de.hdodenhof-circleimageview-1.3.0_59c6e2288911d992d0ac9e51da8a8433e20929b0.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-23.3.0_f8229974af39ff2d21173efd4df16c954684bab2.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\exploded-aar\com.github.techery\ProperRatingBar\v0.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ee5c50077601f1c9a5aac645bd2c8f366400baee">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\com.github.techery-ProperRatingBar-v0.0.3_11f51b328c26545ee8c79ba18113f0c6c7aefb39.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="86da97c30f50a67ddabe2cf7040713ad17153fce">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\com.facebook.android-facebook-android-sdk-4.11.0_140fef06d47b9494e6c05f080bd969451a317db1.jar" />
+    </item>
+    <item
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\support-annotations-23.3.0_a4ea006b60a31b1ef1f45205b3aa598eb0850127.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\library-2.4.0_dd8e42a5a1cc5cb0e075280f4b4af52e775250b4.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\bolts-tasks-1.4.0_008ce8253d9c2cabcb53a0a7000c03c0ec33c83f.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-basement-8.4.0_2c44e55d04697b97d66c9d05099d14e561f4ea29.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\picasso-2.5.2_48f61fe4f2aac0a76b5f1e2f63bc1c1719804577.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\libs\mail.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\mail_ae7f43a13ff144cc6a3bf30b3b5f1771895b2ee7.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-maps-8.4.0_65f3973b1cd0f18dd9cd7d516ad40c261b02f2ad.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\libs\activation.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\activation_d92ca6513ba59e0184aeb0bd2dabaa7f8562750b.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\internal_impl-23.3.0_515afc85c90561b6c517acf68f1eea1219eabb4d.jar" />
+    </item>
+    <item
+        jar="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0e5a66a941515d873a34065fe44fbba6ef422a1b">
+        <dex dex="C:\Users\sumit rana\Documents\ProjectApplication\app\build\intermediates\pre-dexed\release\com.android.support-customtabs-23.2.1_4d99ee4483459e04d9ea1723564507cbd8d65945.jar" />
+    </item>
+
+</items>

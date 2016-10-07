@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="headfirst.com.projectapplication"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name="headfirst.com.projectapplication.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="android.app.searchable"
+            android:resource="@xml/searchable" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAWthsqDqCg25aaqUmGbHZhlxUBhm-J8HY" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name="headfirst.com.projectapplication.MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="headfirst.com.projectapplication.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="headfirst.com.projectapplication.SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="headfirst.com.projectapplication.LoginActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name="headfirst.com.projectapplication.DisplayNotifications" >
+            <intent-filter>
+                <action android:name="headfirst.com.projectapplication.DisplayNotification" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="headfirst.com.projectapplication.ProfInfo"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_prof_info"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="headfirst.com.projectapplication.prof_detail"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_prof_detail"
+            android:parentActivityName="headfirst.com.projectapplication.ProfInfo"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="headfirst.com.projectapplication.ProfInfo" />
+        </activity>
+        <activity
+            android:name="headfirst.com.projectapplication.Course_info"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_course_info"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="headfirst.com.projectapplication.Course_Detail"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name="headfirst.com.projectapplication.Trending_courses"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_Trending_Courses" />
+            android:theme="@style/AppTheme" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

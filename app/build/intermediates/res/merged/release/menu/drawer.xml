@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:checked="false"
+            android:icon="@drawable/ic_inbox_black"
+            android:title="@string/home_string" />
+
+        <item
+            android:id="@+id/AboutUs"
+            android:checked="false"
+            android:icon="@drawable/ic_aboutus"
+            android:title="@string/aboutUs" />
+
+        <item
+            android:id="@+id/ContactUs"
+            android:checked="false"
+            android:icon="@drawable/ic_contactus"
+            android:title="@string/contactUs" />
+
+        <item
+            android:id="@+id/maps"
+            android:checked="false"
+            android:icon="@drawable/ic_maps"
+            android:title="@string/maps" />
+        <item
+            android:id="@+id/reminder"
+            android:checked="false"
+            android:icon="@drawable/ic_reminder"
+            android:title="@string/reminder" />
+        <item
+            android:id="@+id/logoutandexit"
+            android:checked="false"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logOutandExit" />
+
+
+
+    </group>
+</menu>

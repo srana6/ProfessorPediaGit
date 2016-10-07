@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:id="@+id/layout_info"
+    android:background="@drawable/backg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/info"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="18sp"
+        />
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="182dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login As A Guest"
+        android:id="@+id/buttonGuestID"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+   <!-- <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_below="@+id/info"
+        android:layout_centerHorizontal="true"
+        android:hint="Username" />-->
+
+   <!-- <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:hint="Password" />-->
+
+   <!-- <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/buttonLoginID"
+        android:layout_marginTop="71dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignRight="@+id/buttonGuestID"
+        android:layout_alignEnd="@+id/buttonGuestID" />-->
+
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/buttonRegisterID"
+        android:layout_alignTop="@+id/buttonLoginID"
+        android:layout_alignLeft="@+id/login_button"
+        android:layout_alignStart="@+id/login_button" />-->
+
+</RelativeLayout>

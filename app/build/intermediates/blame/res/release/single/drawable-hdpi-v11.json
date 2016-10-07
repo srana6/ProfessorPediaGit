@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\sumit rana\\Documents\\ProjectApplication\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v11\\ic_reminder.png",
+        "source": "C:\\Users\\sumit rana\\Documents\\ProjectApplication\\app\\src\\main\\res\\drawable-hdpi-v11\\ic_reminder.png"
+    },
+    {
+        "merged": "C:\\Users\\sumit rana\\Documents\\ProjectApplication\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v11\\ic_maps.png",
+        "source": "C:\\Users\\sumit rana\\Documents\\ProjectApplication\\app\\src\\main\\res\\drawable-hdpi-v11\\ic_maps.png"
+    },
+    {
+        "merged": "C:\\Users\\sumit rana\\Documents\\ProjectApplication\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v11\\ic_logout.png",
+        "source": "C:\\Users\\sumit rana\\Documents\\ProjectApplication\\app\\src\\main\\res\\drawable-hdpi-v11\\ic_logout.png"
+    },
+    {
+        "merged": "C:\\Users\\sumit rana\\Documents\\ProjectApplication\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v11\\ic_aboutus.png",
+        "source": "C:\\Users\\sumit rana\\Documents\\ProjectApplication\\app\\src\\main\\res\\drawable-hdpi-v11\\ic_aboutus.png"
+    },
+    {
+        "merged": "C:\\Users\\sumit rana\\Documents\\ProjectApplication\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v11\\ic_contactus.png",
+        "source": "C:\\Users\\sumit rana\\Documents\\ProjectApplication\\app\\src\\main\\res\\drawable-hdpi-v11\\ic_contactus.png"
+    }
+]

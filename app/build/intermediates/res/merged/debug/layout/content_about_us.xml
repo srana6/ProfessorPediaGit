@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="headfirst.com.projectapplication.AboutUS"
+    tools:showIn="@layout/activity_about_us">
+    <ImageView
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:background="@drawable/iitemblem"
+    android:layout_alignParentTop="true"
+    android:id="@+id/iitemblem"
+    android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="81dp"
+        android:id="@+id/about_us1"
+        android:textSize="20sp"
+        android:text="@string/about_us1"
+        android:layout_below="@+id/iitemblem"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/about_us2"
+        android:textSize="20sp"
+        android:text="@string/about_us2"
+        android:layout_below="@+id/about_us1"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/about_us3"
+        android:textSize="20sp"
+        android:text="@string/about_us3"
+        android:layout_below="@+id/about_us2"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/about_us4"
+        android:textSize="20sp"
+        android:text="@string/about_us4"
+        android:layout_below="@+id/about_us3"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/about_us5"
+        android:textSize="20sp"
+        android:text="@string/about_us5"
+        android:layout_below="@+id/about_us4"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/about_us6"
+        android:textSize="20sp"
+        android:text="@string/about_us5"
+        android:layout_below="@+id/about_us4"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/about_us7"
+        android:textSize="20sp"
+        android:text="Mobile Application Development"
+        android:layout_below="@+id/about_us5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/about_us8"
+        android:textSize="20sp"
+        android:text="CS442"
+        android:layout_below="@+id/about_us7"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
