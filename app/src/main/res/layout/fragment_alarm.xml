@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="@drawable/backg"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/iitemblem"
+        android:id="@+id/iitemblem"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:text="@string/rules"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="67dp" />
+
+
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="#E1E1E1"
+        android:weightSum="1"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_weight=".25"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Time" />
+
+
+
+        <EditText
+            android:id="@+id/editTextTimeID"
+            android:hint="HH-MM"
+            android:inputType="phone"
+            android:digits="0123456789-"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_weight=".75" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="#E1E1E1"
+        android:weightSum="1"
+        android:id="@+id/linearLayout2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_weight=".25"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Date" />
+
+        <EditText
+            android:id="@+id/editTextDateID"
+            android:hint="YYYY-MM-DD"
+            android:inputType="phone"
+            android:digits="0123456789-"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_weight=".75" />
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="add your note..."
+        android:id="@+id/editTextNotesID"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="46dp"
+        android:layout_alignParentStart="true" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
+
+
+    </RelativeLayout>
+
+   <info.hoang8f.widget.FButton
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        style="@style/button_text"
+        android:textSize="14dp"
+        android:id="@+id/btnSetAlarm"
+        android:text="Set Alarm"
+        app:shadowEnabled="true"
+        app:shadowHeight="5dp"
+        app:cornerRadius="50dp"
+        app:buttonColor="@color/fbutton_color_alizarin"
+        app:shadowColor="@color/fbutton_color_pomegranate"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <!-- <EditText
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/editTextDateID"
+         android:layout_alignParentTop="true"
+         android:layout_alignRight="@+id/editTextTimeID"
+         android:layout_alignEnd="@+id/editTextTimeID"
+         android:hint="YYYY-MM-DD"
+         android:layout_toEndOf="@+id/textView3" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="20dp"
+         android:text="DATE"
+         android:id="@+id/textView3"
+         android:layout_alignBottom="@+id/editTextDateID" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="TIME"
+         android:textSize="20dp"
+         android:id="@+id/textView4"
+         android:layout_alignBottom="@+id/editTextTimeID"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true" />
+
+     <EditText
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/editTextTimeID"
+         android:layout_below="@+id/editTextDateID"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentEnd="true"
+         android:hint="HH-MM"
+         android:layout_marginTop="46dp"
+         android:layout_toRightOf="@+id/textView3"
+         android:layout_toEndOf="@+id/textView3" />-->
+
+
+
+</RelativeLayout>

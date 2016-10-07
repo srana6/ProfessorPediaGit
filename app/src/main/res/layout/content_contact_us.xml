@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="headfirst.com.projectapplication.ContactUs"
+    tools:showIn="@layout/activity_contact_us"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:isScrollContainer="false"
+    android:background="@drawable/backg"
+    android:scrollbars="vertical">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+
+        <!--Put form controls here-->
+        <TextView
+            android:id="@+id/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feedbacktitle"
+            android:textSize="10pt"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+        </TextView>
+
+        <EditText
+            android:id="@+id/EditTextName"
+            android:layout_height="wrap_content"
+            android:hint="@string/feedbackname"
+            android:inputType="textPersonName"
+            android:layout_width="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="68dp">
+        </EditText>
+
+        <EditText
+            android:id="@+id/EditTextEmail"
+            android:layout_height="wrap_content"
+            android:hint="@string/feedbackemail"
+            android:inputType="textEmailAddress"
+            android:layout_width="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="83dp"
+            android:layout_above="@+id/editTextMessage">
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_height="wrap_content"
+            android:hint="@string/feedbackbody"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:layout_width="fill_parent"
+            android:layout_above="@+id/buttonSend"
+            android:layout_alignParentStart="true">
+        </EditText>
+
+        <Button
+            android:id="@+id/buttonSend"
+            android:layout_height="wrap_content"
+            android:text="@string/feedbackbutton"
+            android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="104dp">
+        </Button>
+
+
+    </RelativeLayout>
+</ScrollView>

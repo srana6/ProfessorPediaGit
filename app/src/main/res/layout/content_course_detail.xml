@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="headfirst.com.projectapplication.Course_Detail"
+    tools:showIn="@layout/activity_course__detail">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/upper_lay">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listlay3">
+    <TextView
+            android:id="@+id/crs_crn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:text="CourseCRN"
+        android:textSize="25dp"
+            android:textColor="#ff0000"
+            android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listlay2"
+        android:layout_below="@+id/listlay3">
+    <TextView
+            android:id="@+id/crs_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:text="CourseName"
+            android:textSize="20dp"
+            android:layout_alignBottom="@+id/listlay3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listlay1"
+        android:layout_below="@+id/listlay2">
+    <TextView
+        android:id="@+id/crs_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:text="CourseInfo" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listlay"
+        android:layout_below="@+id/listlay1">
+        <ListView
+                android:layout_width="match_parent"
+            android:layout_height="137dp"
+            android:id="@+id/excourselist"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:id="@+id/lower_lay">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:id="@+id/listlay0">
+        <TextView
+            android:id="@+id/Reviewt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reviews"
+            android:textSize="20dp"
+            android:layout_alignBottom="@+id/listlay3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </LinearLayout>
+    <RelativeLayout
+            android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/listlayx"
+        android:layout_below="@+id/listlay0">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratelay0">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Helpfulness"
+                android:layout_height="wrap_content"
+                android:id="@+id/helptv2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                    android:isIndicator="true"
+                android:id="@+id/helpratingBar2"
+                android:stepSize="0.1"
+                android:layout_below="@id/helptv2" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratelay1"
+            android:layout_below="@id/ratelay0" >
+    <TextView
+        android:layout_width="wrap_content"
+                android:text="Clarity      "
+                android:layout_height="wrap_content"
+                android:id="@+id/claritytv2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                    android:isIndicator="true"
+                android:id="@+id/clarityratingBar2"
+                android:stepSize="0.1"
+                android:layout_below="@+id/claritytv2" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratelay2"
+            android:layout_below="@id/ratelay1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Easiness     "
+                android:layout_height="wrap_content"
+                android:id="@+id/easytv2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                    android:isIndicator="true"
+                android:id="@+id/easyratingBar2"
+                android:stepSize="0.1"
+                android:layout_below="@+id/easytv2" />
+        </RelativeLayout>
+        <ListView
+            android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            android:id="@+id/review_list"
+                android:layout_below="@id/ratelay2"
+                android:layout_gravity="bottom"
+            android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:id="@+id/listlayy">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+        android:text="Helpfulness"
+        android:layout_height="wrap_content"
+        android:id="@+id/helptv"
+        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/course_list"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/helpratingBar" />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/helpratingBar"
+        android:stepSize="0.1"
+                        style="?android:attr/ratingBarStyleIndicator"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                            android:isIndicator="false" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+                        android:text="Clarity      "
+        android:layout_height="wrap_content"
+        android:id="@+id/claritytv"
+        android:layout_alignBottom="@+id/clarityratingBar"
+                        android:layout_below="@+id/helptv1" />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clarityratingBar"
+        android:stepSize="0.1"
+                        style="?android:attr/ratingBarStyleIndicator"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        android:isIndicator="false"
+                            android:clickable="true"
+        android:layout_below="@+id/helpratingBar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+                        android:text="Easiness     "
+        android:layout_height="wrap_content"
+        android:id="@+id/easytv"
+        android:layout_alignBottom="@+id/easyratingBar"
+        android:layout_below="@+id/claritytv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/easyratingBar"
+        android:stepSize="0.1"
+                        style="?android:attr/ratingBarStyleIndicator"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+
+                            android:isIndicator="false"
+                        android:layout_below="@+id/clarityratingBar" />
+                </LinearLayout>
+                <EditText
+                    android:id="@+id/comment1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="PLEASE TYPE SOME COMMENT"/>
+                <info.hoang8f.widget.FButton
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    style="@style/button_text"
+                    android:textSize="14dp"
+                    android:id="@+id/submit"
+                    android:text="Submit"
+                    app:shadowEnabled="true"
+                    app:shadowHeight="5dp"
+                    app:cornerRadius="50dp"
+                    app:buttonColor="@color/fbutton_color_alizarin"
+                    app:shadowColor="@color/fbutton_color_pomegranate" />
+            </LinearLayout>
+    </RelativeLayout>
+    </RelativeLayout>
+            <RelativeLayout
+        android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+        android:layout_weight="0"
+        android:layout_below="@+id/lower_lay"
+        android:id="@+id/buttonlay">
+                <info.hoang8f.widget.FButton
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    style="@style/button_text"
+                    android:textSize="14dp"
+                    android:id="@+id/submit1"
+                    android:text="Show Review"
+                    app:shadowEnabled="true"
+                    app:shadowHeight="5dp"
+                    app:cornerRadius="50dp"
+                    app:buttonColor="@color/fbutton_color_alizarin"
+                    app:shadowColor="@color/fbutton_color_pomegranate" />
+                <info.hoang8f.widget.FButton
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    style="@style/button_text"
+                    android:textSize="14dp"
+            android:id="@+id/binfo"
+            android:text="Show Info"
+            android:layout_toRightOf="@id/submit1"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp"
+            app:cornerRadius="50dp"
+            app:buttonColor="@color/fbutton_color_alizarin"
+            app:shadowColor="@color/fbutton_color_pomegranate"
+            android:layout_alignTop="@+id/submit1"
+            android:layout_toEndOf="@+id/submit1" />
+        <info.hoang8f.widget.FButton
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            style="@style/button_text"
+            android:textSize="14dp"
+                    android:id="@+id/hide1"
+            android:layout_toRightOf="@id/binfo"
+                    android:text="Add Review"
+                    app:shadowEnabled="true"
+                    app:shadowHeight="5dp"
+                    app:cornerRadius="50dp"
+                    app:buttonColor="@color/fbutton_color_alizarin"
+                    app:shadowColor="@color/fbutton_color_pomegranate"
+                    android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+
+
+</RelativeLayout>

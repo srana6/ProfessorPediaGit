@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name"> ProffesorPedia</string>
+    <string name="app_id">820742464724550</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_About_Us">About Us</string>
+    <string name="action_Contact_Us">Contact Us</string>
+    <string name="title_activity_about_us">AboutUS</string>
+    <string name="title_activity_contact_us">ContactUs</string>
+    <string name="feedbacktitle">I appreciate your feedback!!</string>
+    <string name="feedbackname">Your Name:</string>
+    <string name="feedbackemail">Email:</string>
+    <string name="feedbackbody">Feedback write</string>
+    <string name="feedbackresponse">Would you like an Email response?</string>
+    <string name="feedbackbutton">Submit</string>
+    <string name="feedbacktype1">Praise</string>
+    <string name="feedbacktype2">Gripe</string>
+    <string name="feedbacktype3">Suggestion</string>
+    <string name="feedbacktype4">Bug</string>
+    <string name="title_activity_my_map">MyMap</string>
+    <string name="about_us1">This Application was built by:</string>
+    <string name="about_us3">Fatema Alteneiji</string>
+    <string name="about_us2">Sumit Rana</string>
+    <string name="about_us4">Vinaykumar Mariyani</string>
+    <string name="about_us5">Anqi Tian</string>
+    <string name="search_hint">Search info</string>
+
+    <string name="home_string">Home</string>
+    <string name="aboutUs">About Us</string>
+    <string name="contactUs">Contact Us</string>
+    <string name="maps">Maps</string>
+    <string name="reminder">Reminder</string>
+    <string name="logOutandExit">Logout and Exit</string>
+    <string name="hello_world">Hello world!</string>
+
+
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+
+
+    <string name="notification">Notification</string>
+    <string name="rules">Please follow the YY-MM-DD and HH-MM 24hr Format in order to get alerts :</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="FAQFragment">Frequently Asked Questions?</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">About Us</string>
+    <string name="nav_item_notifications">Contact Us</string>
+    <string name="nav_item_maps">Maps</string>
+    <string name="nav_item_reminder">Reminder</string>
+    <string name="nav_item_logOut">LogOut and Exit</string>
+
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+        <item>@string/nav_item_maps</item>
+        <item>@string/nav_item_reminder</item>
+        <item>@string/nav_item_logOut</item>
+    </string-array>
+
+    <!-- <string-array name="list_of_faq_questions">
+        <item>@string/faq_list_question1</item>
+        <item>@string/faq_list_question2</item>
+        <item>@string/faq_list_question3</item>
+        <item>@string/faq_list_question4</item>
+        <item>@string/faq_list_question5</item>
+    </string-array>-->
+
+    <string name="title_activity_prof_info">ProfInfo</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_prof_detail">prof_detail</string>
+    <string name="title_activity_course_info">Course_info</string>
+    <string name="title_activity_Trending_Courses">Trending Courses</string>
+
+    <string name="faq1">HOW DO I TALK TO SOMEONE IN GRADUATE ADMISSION REGARDING MY APPLICATION?</string>
+    <string name="faq2">DO YOU HAVE OFFICES OVERSEAS?</string>
+    <string name="faq3">WHERE CAN I FIND OUT INFORMATION ABOUT HOUSING?</string>
+    <string name="faq4">HOW HARD IS THE COURSES AT IIT?</string>
+    <string name="faq5">CAN WE GET ONLINE RECORDED LECTURES FOR ALL THE COURSES?</string>
+
+    <string name="faqAns1">You may contact us here or call our office to speak to your Admission Specialist
+                or Recruiter at 312.567.3020. Otherwise, review your online application portal or emails
+                to see what documents are still required of you or if it was sent to the department.</string>
+    <string name="faq2Ans2">We have offices in India, China, Korea, and Europe. We highly encourage you to speak your home country office
+                first, if applicable, for any preliminary questions.</string>
+    <string name="faqAns3">Visit the Office of Residence and Greek Life website. Stuart School Business housing information</string>
+    <string name="faqAns4">Depends on your choice, Programming Core courses are of course very hard.</string>
+    <string name="faqAns5">For most of them but not for all like Mobile Application Development, you do not have access to recorded lectures.</string>
+
+
+</resources>
